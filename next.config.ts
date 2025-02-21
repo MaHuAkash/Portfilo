@@ -1,5 +1,8 @@
 const nextConfig = {
   output: 'export',
+  images: {
+    unoptimized: true, // Add this line
+  },
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -7,5 +10,4 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
 };
-
 export default nextConfig;

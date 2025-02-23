@@ -1,7 +1,7 @@
 'use client';
 
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { WavyBackground } from "@/components/acernityui/wavy-background";
+import { WavyBackground } from "./acernityui/wavy-background";
 export default function HeroSection() {
   const { scrollY } = useScroll();
   const y = useTransform(scrollY, [0, 300], [0, -100]);

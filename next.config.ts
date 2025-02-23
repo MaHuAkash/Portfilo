@@ -1,13 +1,8 @@
 const nextConfig = {
   output: 'export',
   images: {
-    unoptimized: true, // Add this line
-  },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  typescript: {
-    ignoreBuildErrors: true,
+    unoptimized: true,
   },
 };
+
 export default nextConfig;

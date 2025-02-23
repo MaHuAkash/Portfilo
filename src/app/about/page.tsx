@@ -1,6 +1,6 @@
 'use client';
 import { motion } from 'framer-motion';
-import { Cover } from "@/components/acernityui/cover";
+import { Cover } from "../../components/acernityui/cover";
 import { 
   CodeBracketIcon,
   ServerIcon,

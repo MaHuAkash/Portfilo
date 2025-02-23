@@ -1,4 +1,5 @@
-import { FloatingDock } from "@/components/acernityui/floating-dock"; // Update with your actual path
+
+import { FloatingDock } from "../components/acernityui/floating-dock"; // Update with your actual path
 import { Home, User, Settings, Mail, Briefcase,Terminal } from "tabler-icons-react"; // Example icons
 
 export const Navbar = () => {

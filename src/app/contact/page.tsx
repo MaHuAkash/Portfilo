@@ -1,7 +1,6 @@
 'use client'
-
 import { motion } from 'framer-motion'
-import ParticleBackground from '@/components/ParticleBackground'
+import { ParticleBackground } from '../../components/acernityui/ParticleBackground'
 
 
 const colorConfig = {
